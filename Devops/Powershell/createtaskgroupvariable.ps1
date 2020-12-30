@@ -1,0 +1,1 @@
+write-host "##vso[task.setvariable variable=adfmiServicePrincipalObjectId]$adfmiServicePrincipalObjectId"

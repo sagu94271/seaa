@@ -1,0 +1,4 @@
+call az ad group list --display-name $(CustomerSecurityGroup) --query [].objectId -o tsv>tmpFile1
+set /p CustomerSGObjectID=<tmpFile1 
+echo ##vso[task.setvariable variable=CustomerSGObjectID]%CustomerSGObjectID%
+echo %CustomerSGObjectID%
