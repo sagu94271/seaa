@@ -1,6 +1,6 @@
 # ----------------------------------------------------------------------------------------------------------
 # Description: Key-Vault Secret Expiration Alerts
-# Author: sagar.lad@nl.abnamro.com
+# Author: sagar.lad
 # Date: 7/Feb/2020 
 # Parameters:
 # 1) $ResourceGroupName - Resource Group Name
